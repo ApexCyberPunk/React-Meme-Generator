@@ -1,0 +1,29 @@
+
+
+.headerContainer {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    display: grid;
+    grid-template-areas:
+    "face memeGen project"
+    ;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    font-family: "Karla";
+}
+
+.face {
+    grid-area: face;
+}
+
+.memeGen {
+    grid-area: memeGen;
+    margin-left: -26vw;
+}
+
+.project {
+    grid-area: project;
+    justify-self: flex-end;
+    padding-right: 1vw;
+}

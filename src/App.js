@@ -1,8 +1,15 @@
 import './App.css';
-
+import './components/form.css'
+import Header from './components/Header'
+import Form from './components/Form'
 function App() {
 
-return <h1>hello wdasfdorld</h1>
+return (
+    <>
+          <Header />
+          <Form />
+    </>
+)
 
 }
 

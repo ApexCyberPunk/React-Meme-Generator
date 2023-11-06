@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    inset: 0;
+    padding: 0;
+}
+
+
+.form {
+    font-family: "Karla", sans-serif;
+    width: 80vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+    "input1 input2"
+    "formBtn formBtn"
+    ;
+}
+
+.input1 {
+    grid-area: input1;
+    font-family: "Karla", sans-serif;
+}
+.input2 {
+    font-family: "Karla", sans-serif;
+    grid-area: input2;
+}
+
+.input1,
+.input2 {
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.formBtn {
+    font-family: "Karla", sans-serif;
+    grid-area: formBtn;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
